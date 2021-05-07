@@ -1,13 +1,13 @@
-# Edge Conventions
+# Edge Development Conventions
 
-# Table of Contents
+## Table of Contents
 
-1. [Workflow Conventions](workflow.md)
-1. [Repos Conventions](repos.md)
-1. [React Conventions](react.md)
-1. [Redux Conventions](redux.md)
-1. [Naming Conventions](naming.md)
-1. [Testing Conventions](testing.md)
-1. [Coding Conventions](coding.md)
-1. [Git Conventions](git.md)
-1. [Server Conventions](server.md)
+* [Conventions Documentation Guidelines](docs.md)
+* [Edge Libraries](libs.md)
+* [Repository Conventions](repos.md)
+* [Server Conventions](server.md)
+* [Recommended tools](tools.md)
+* [Git](git/README.md)
+  * [Commit rules](git/commit.md)
+  * [Git "Future Commit" Workflow](git/future-commit.md)
+  * [Pull Request Rules](git/pr.md)
