@@ -51,4 +51,4 @@ For example for this page it's: "developer-documentation-guidelines")
 
 - content - The actual content of the page which should only use "native" markdown syntax, without any html tags.
 
-[Back to the top](#developer-documentation-guidelines)
+[Back to the top](#conventions-documentation-guidelines)
