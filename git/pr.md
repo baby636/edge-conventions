@@ -33,7 +33,7 @@
 
 - You can create fixup commits with `git commit --fixup <commit-hash>` or you can use the commit message: `git commit --fixup ':/Commit message'`. Using `:/` followed by the commit message will tell git to find the most recent commit matching the message text that you provided. Git will partially match your commit message text if you don't enter it fully, however be mindful that you don't unintentionally match the wrong commit.
 
-[Back to the top](#pull-request-rules)
+[Back to the top](#--pull-request-rules)
 
 &nbsp;
 
@@ -80,7 +80,7 @@ fixup abc444 fixup! Updated some configurations for awesome component
 
 After rebasing, the requester will force push the changes to update the PR. If there are no more commits left to rebase and no code changes left to be reviewed, the PR should be merged by requester. The reviewer has the option to merge as well.
 
-[Back to the top](#pull-request-rules)
+[Back to the top](#--pull-request-rules)
 
 &nbsp;
 
@@ -113,4 +113,4 @@ My cool feature with extra coolness
 
 You can delete the all the lines but the last line to replace the commit message for your final commit.
 
-[Back to the top](#pull-request-rules)
+[Back to the top](#--pull-request-rules)

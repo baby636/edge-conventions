@@ -32,7 +32,7 @@
 
 ----
 
-[Back to the top](#repository-conventions)
+[Back to the top](#--repository-conventions)
 
 &nbsp;
 
@@ -49,7 +49,7 @@
 
 ----
 
-[Back to the top](#repository-conventions)
+[Back to the top](#--repository-conventions)
 
 &nbsp;
 
@@ -73,7 +73,7 @@ yarn add -D husky
 
 ----
 
-[Back to the top](#repository-conventions)
+[Back to the top](#--repository-conventions)
 
 &nbsp;
 
@@ -116,7 +116,7 @@ yarn add -D husky
 
 ----
 
-[Back to the top](#repository-conventions)
+[Back to the top](#--repository-conventions)
 
 &nbsp;
 
@@ -147,7 +147,7 @@ All dependencies should be defined with their full URLs or NPM package version. 
 
 ----
 
-[Back to the top](#repository-conventions)
+[Back to the top](#--repository-conventions)
 
 &nbsp;
 
@@ -162,7 +162,7 @@ Each repo should have the following package.json scripts which accomplish the fo
 * `precommit`: Run `build` then `test`
 * `prepare`: Run `build`
 
-[Back to the top](#repository-conventions)
+[Back to the top](#--repository-conventions)
 
 &nbsp;
 

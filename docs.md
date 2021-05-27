@@ -37,7 +37,7 @@ ${table_of_content}
 
 ${content}
 
-[Back to the top](#${main_header_dashed})
+[Back to the top](#--${main_header_dashed})
 
 ```
 
@@ -51,4 +51,4 @@ For example for this page it's: "developer-documentation-guidelines")
 
 - content - The actual content of the page which should only use "native" markdown syntax, without any html tags.
 
-[Back to the top](#conventions-documentation-guidelines)
+[Back to the top](#--conventions-documentation-guidelines)

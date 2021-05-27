@@ -20,7 +20,7 @@ Although servers do not live on NPM, we still maintain a `CHANGELOG.md` file and
 
 Servers should never implement breaking changes. If a change cannot be backwards-compatible, it should exist as a new endpoint. Old endpoints should be deprecated & eventually deactivated after some period of time. Deactivated endpoints should not be deleted, but should instead return HTTP status code 410, "Gone", or some other similar error.
 
-[Back to the top](#server-conventions)
+[Back to the top](#--server-conventions)
 
 &nbsp;
 
@@ -34,7 +34,7 @@ These client libraries are versioned independently from the server they communic
 
 Servers are encouraged to share code with their client libraries, such as type definitions, cleaners, constant definitions, and so forth. Putting the shared code in the client library is the most convenient option, since the client would be published to NPM for easy consumption by the server. However it is also possible to share code the other way around (from the server, as below).
 
-[Back to the top](#server-conventions)
+[Back to the top](#--server-conventions)
 
 &nbsp;
 
@@ -120,7 +120,7 @@ Here's a breakdown describing each dependency and configuration:
   * `sucrase`: Necessary for running/building typescript (as a faster alternative to using tsc for JS output).
   * `typescript`: Necessary for building type definition files and for development.
 
-[Back to the top](#server-conventions)
+[Back to the top](#--server-conventions)
 
 &nbsp;
 
@@ -150,4 +150,4 @@ import { asApiGetRequest, asApiGetResponse } from 'my-server'
 
 Because server versions track the API changes of the HTTP interface and _not_ the versioning of any exported types, there are no guarantees that types wont have breaking changes from one server version to another. This is one of the caveats to exporting types from the server, and why it is recommended to define and export types on a complementary client-side library for the server (see 'Client Libraries' above).
 
-[Back to the top](#server-conventions)
+[Back to the top](#--server-conventions)

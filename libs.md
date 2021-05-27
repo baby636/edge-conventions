@@ -49,7 +49,7 @@ In most cases, it is required to use this tools when working on our repos.
 
 - [Updot][Updot] - Copy dependencies from repos in the ../ folder to the current repo's node_modules. Useful in a React Native project as npm link is broken.
 
-[Back to the top](#edge-libraries)
+[Back to the top](#--edge-libraries)
 
 [cleaners]: https://www.npmjs.com/package/cleaners
 [configs]: https://www.npmjs.com/package/cleaner-config

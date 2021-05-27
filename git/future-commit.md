@@ -20,7 +20,7 @@ It's not uncommon for some feature to depend on the work of another feature on a
 
 This convention describes a workflow using "future commits" to organize and identify feature dependencies that have not yet been merged into the master branch. This is accomplished with a single commit for each anticipated merge of a feature, building a pseudo-master branch to be used until all feature dependencies (PRs) have been reviewed, approved, and merged.
 
-[Back to the top](#git-"future-commit"-workflow)
+[Back to the top](#--git-"future-commit"-workflow)
 
 &nbsp;
 
@@ -41,7 +41,7 @@ By convention, always use "future!" followed by the branch name as the commit me
 
 Now we're ready to make commits to `feature-b`. When we submit our PR, the reviewer can see our future commit and know that all the work prior to this future commit is to be reviewed separately within another PR.
 
-[Back to the top](#git-"future-commit"-workflow)
+[Back to the top](#--git-"future-commit"-workflow)
 
 &nbsp;
 
@@ -60,7 +60,7 @@ This time we created our new branch `feature-c` and merged `feature-b`. Finally 
 
 When submitting our PR for `feature-c`, the reviewer can see two future commits and know to review only the commits following the last future commit.
 
-[Back to the top](#git-"future-commit"-workflow)
+[Back to the top](#--git-"future-commit"-workflow)
 
 &nbsp;
 
@@ -115,7 +115,7 @@ If we have more branches that depend on `feature-a`, we can repeat step 2 for ea
 
 If we have a branch that depends on `feature-b`, say `feature-c`, we can repeat steps 1 for `feature-b` and step 2 for `feature-c`.
 
-[Back to the top](#git-"future-commit"-workflow)
+[Back to the top](#--git-"future-commit"-workflow)
 
 &nbsp;
 
@@ -137,7 +137,7 @@ After all rebasing is completed, we can delete the `future/feature-a` tag for cl
 git tag -d future/feature-a
 ```
 
-[Back to the top](#git-"future-commit"-workflow)
+[Back to the top](#--git-"future-commit"-workflow)
 
 &nbsp;
 
@@ -147,7 +147,7 @@ All PRs for features that that include one or more future commits should be "Dra
 
 The PR should be converted to "Open" once all the future commits have been removed because the feature dependencies have been merged to master. Only after this can the requester (or reviewer) merge the approved PR. _It is the responsibility of the requester to merge open and approved PRs._
 
-[Back to the top](#git-"future-commit"-workflow)
+[Back to the top](#--git-"future-commit"-workflow)
 
 &nbsp;
 
@@ -206,4 +206,4 @@ If `<feature-branch>` argument is omitted, then it'll use the currently checked 
 
 In addition, if `<feature-branch>` does not have a future commit for the `<future-branch>` in its upstream, then it will rebase normally; that is, all the way to the fork of the two branches. This is useful for rebasing existing branches onto some new dependency branch.
 
-[Back to the top](#git-"future-commit"-workflow)
+[Back to the top](#--git-"future-commit"-workflow)

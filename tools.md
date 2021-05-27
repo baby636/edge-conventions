@@ -25,7 +25,7 @@ However, if you choose not to use them, we can't guarantee it would work or that
 
 - [SourceTree][SourceTree]
 
-[Back to the top](#recommended-tools)
+[Back to the top](#--recommended-tools)
 
 [vscode]: https://code.visualstudio.com/
 [sourcetree]: https://www.sourcetreeapp.com/

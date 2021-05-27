@@ -149,4 +149,4 @@ code)."
 
 source: [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/#seven-rules)
 
-[Back to the top](#commit-rules)
+[Back to the top](#--commit-rules)
