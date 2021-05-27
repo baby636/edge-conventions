@@ -148,6 +148,6 @@ import { asApiGetRequest, asApiGetResponse } from 'my-server'
 // ... Use cleaners to sanitize and validate IO to the server
 ```
 
-Because server versions track the API changes of the HTTP interface and _not_ the versioning of any exported types, there are no guarantees that types wont have breaking changes from one server version to another. This is one of the caveats to exporting types from the server, and why it is recommended to define and export types on a complementary client-side library for the server (see 'Client Libraries' above)
+Because server versions track the API changes of the HTTP interface and _not_ the versioning of any exported types, there are no guarantees that types wont have breaking changes from one server version to another. This is one of the caveats to exporting types from the server, and why it is recommended to define and export types on a complementary client-side library for the server (see 'Client Libraries' above).
 
 [Back to the top](#server-conventions)
